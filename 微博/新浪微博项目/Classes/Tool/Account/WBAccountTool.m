@@ -84,4 +84,10 @@ static WBAccount *_account;
     
 }
 
+//删除账户
++ (void)deleteAccount
+{
+    _account.expires_date = [NSDate date];
+}
+
 @end

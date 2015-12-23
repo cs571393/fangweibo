@@ -7,6 +7,8 @@
 //
 
 #import "WBProfileViewController.h"
+#import "AppDelegate.h"
+
 
 @interface WBProfileViewController ()
 
@@ -18,14 +20,14 @@
     [super viewDidLoad];
     
     //聊天按钮
-    UIBarButtonItem *settings = [[UIBarButtonItem alloc] initWithTitle:@"设置" style:UIBarButtonItemStyleBordered target:self action:@selector(setUpSettings)];
+    UIBarButtonItem *settings = [[UIBarButtonItem alloc] initWithTitle:@"退出登录" style:UIBarButtonItemStyleBordered target:self action:@selector(setUpSettings)];
     self.navigationItem.rightBarButtonItem = settings;
 }
 
-//设置
+//退出登录
 - (void)setUpSettings
 {
-    NSLog(@"%s",__func__);
+    [[AppDelegate appDelegate]deleteOauth];
 }
 
 - (void)didReceiveMemoryWarning {

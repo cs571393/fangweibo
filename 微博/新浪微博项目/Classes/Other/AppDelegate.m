@@ -23,8 +23,11 @@
 
 @implementation AppDelegate
 
+static AppDelegate *_appDelegate;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    
+    _appDelegate = self;
     
     //真机上后台播放音乐需要设置会话
     AVAudioSession *session = [[AVAudioSession alloc] init];
@@ -86,6 +89,17 @@
         [application endBackgroundTask:ID];
         
     }];
+}
+
++ (AppDelegate *)appDelegate
+{
+    return _appDelegate;
+}
+
+- (void)deleteOauth
+{
+    WBOAuthViewController *oAuthVC = [[WBOAuthViewController alloc] init];
+    self.window.rootViewController = oAuthVC;
 }
 
 

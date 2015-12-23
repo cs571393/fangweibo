@@ -20,4 +20,7 @@
 ///用户授权
 + (void)accountWithCode:(NSString *)code success:(void(^)())success failure:(void(^)())failure;
 
+///删除账户
++(void)deleteAccount;
+
 @end

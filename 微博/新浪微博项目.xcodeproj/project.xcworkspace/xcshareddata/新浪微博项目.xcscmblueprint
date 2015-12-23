@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "84A6CA6C027DB4A5A8566AA884CB6F1A0DF10DED",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "64A67547EF06ACCEA2DF7B1BF1BD63842F0102FC" : 0,
+    "84A6CA6C027DB4A5A8566AA884CB6F1A0DF10DED" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "C7EB7269-576C-48BF-AE4E-CCD56F490E4B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "64A67547EF06ACCEA2DF7B1BF1BD63842F0102FC" : "weibo",
+    "84A6CA6C027DB4A5A8566AA884CB6F1A0DF10DED" : "fanfangweibo\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "新浪微博项目",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "微博\/新浪微博项目.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/git.oschina.net\/zhwn\/weibo.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "64A67547EF06ACCEA2DF7B1BF1BD63842F0102FC"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/git.oschina.net\/1203556555\/fanfangweibo.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "84A6CA6C027DB4A5A8566AA884CB6F1A0DF10DED"
+    }
+  ]
+}
